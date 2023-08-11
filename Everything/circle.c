@@ -3,7 +3,7 @@
 /**
  * fileName: circle.c
  * Author: Solomon Chidera.
- * what it does: Calculate and print the area of circles
+ * what it does: Calculate and return the area of circles
  */
 
 double circlarArea(double r)
