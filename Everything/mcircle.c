@@ -12,7 +12,7 @@ int main(void)
 
 	printf("   Areas of circle\n\n");
 	printf("    Radius         Area\n"
-		"-----------------------\n");
+		"------------------------\n");
 
 	area = circularArea(radius);
 	printf("%10.1f     %10.2f\n", radius, area);
