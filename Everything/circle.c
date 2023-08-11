@@ -2,10 +2,9 @@
 
 /**
  * fileName: circle.c
+ * Author: Solomon Chidera.
  * what it does: Calculate and print the area of circles
  */
-
-double circularArea(double r);
 
 double circlarArea(double r)
 {
