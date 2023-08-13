@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-int first(int n)
+void first(int n)
 {
 	while (n >= 10)
 	{
