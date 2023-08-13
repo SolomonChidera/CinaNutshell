@@ -2,6 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 
+int first(int n)
+{
+	while (n >= 10)
+	{
+		n /= 10;
+		return(n);
+
+	}
+}
 
 int main(void)
 {
@@ -10,13 +19,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	while (n >= 10)
-	{
-		n /= 10;
-		return(n);
-	}
-
-	printf("n is equal to %d\n", n);
+	printf("n is equal to %d\n", first(n));
 
 	return(0);
 }
