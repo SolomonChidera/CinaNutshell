@@ -2,8 +2,9 @@
 
 int main(void)
 {
-	int n = 12345;
-	printf("This is the value of n ==> %d ", n);
+	int n;
+	printf("Please enter a number\n");
+	scanf("%d", &n);
 
 	while (n >= 10)
 	{
